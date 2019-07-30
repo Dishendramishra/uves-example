@@ -3,6 +3,7 @@ Simple usage example for PyReduce
 Loads a sample UVES dataset, and runs the full extraction
 """
 
+import os.system
 import os.path
 import pyreduce
 from pyreduce import datasets
@@ -49,3 +50,9 @@ pyreduce.reduce.main(
     configuration=config,
     order_range=(1, 21),
 )
+
+
+def cleanup():
+    os.system("rm -rf datasets pyreduce uves_data.tar.gz")
+
+# cleanup()
