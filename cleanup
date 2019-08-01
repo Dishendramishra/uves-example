@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf datasets pyreduce uves_data.tar.gz
+rm -rf datasets pyreduce uves_data.tar.gz *.tmp

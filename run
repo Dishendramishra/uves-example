@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 2>&1 | tee output.txt
+python3 ./uves_example.py 2>&1 | tee output.txt
